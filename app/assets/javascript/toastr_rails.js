@@ -1,11 +1,11 @@
 //= require 'toastr'
 
 //toastr
-/*toastr.options = {
+toastr.options = {
   "closeButton": true,
   "debug": false,
   "progressBar": true,
-  "positionClass": "toast-top-full-width",
+  "positionClass": "toast-top-center",
   "showDuration": "300",
   "hideDuration": "1000",
   "timeOut": "15000",
@@ -14,7 +14,7 @@
   "hideEasing": "linear",
   "showMethod": "fadeIn",
   "hideMethod": "fadeOut"
-};*/
+};
 
 var showToast = function(flash){
   for(var i = 0; i < flash.length; i++ ){
