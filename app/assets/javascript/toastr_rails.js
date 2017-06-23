@@ -1,7 +1,7 @@
 //= require 'toastr'
 
 //toastr
-toastr.options = {
+/*toastr.options = {
   "closeButton": true,
   "debug": false,
   "progressBar": true,
@@ -14,7 +14,7 @@ toastr.options = {
   "hideEasing": "linear",
   "showMethod": "fadeIn",
   "hideMethod": "fadeOut"
-};
+};*/
 
 var showToast = function(flash){
   for(var i = 0; i < flash.length; i++ ){
